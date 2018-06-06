@@ -1,1 +1,77 @@
+/* header section stuff */
 
+
+
+.header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logosection {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.logotext {
+  font-size: 32px;
+}
+
+.logotext2 {
+  font-size: 32px;
+  color: grey;
+}
+
+.headernav {
+   display: flex;
+   align-items: center;
+   padding: 0;
+}
+
+.headernav a{
+  padding-left: 16px;
+}
+/* beginning of body */
+
+/* intro section*/
+
+.introsection {
+  display: flex;
+  background-color: lightgrey;
+  width: 100%;
+  float: left;
+}
+
+.bannerimage {
+   background-image: url("../images/banner.jpg");
+   background-size: cover;
+   height: 489px;
+   width: 662px;
+   margin: 32px 24px;
+}
+
+.introcontent {
+  height: inherit;
+  width: 40%;
+  border: 2px black dotted;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.startbutton {
+  background-color: grey;
+  width: 17rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.starttext {
+  padding-top: 8px;
+  padding-bottom: 8px;
+ color: white;
+ margin: auto;
+}
