@@ -16,11 +16,11 @@
 }
 
 .logotext {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .logotext2 {
-  font-size: 32px;
+  font-size: 24px;
   color: grey;
 }
 
@@ -31,17 +31,17 @@
 }
 
 .headernav a{
-  padding-left: 16px;
+   padding-left: 16px;
 }
 /* beginning of body */
 
 /* intro section*/
 
 .introsection {
-  display: flex;
-  background-color: lightgrey;
-  width: 100%;
-  float: left;
+   display: flex;
+   background-color: lightgrey;
+   width: 100%;
+   float: left;
 }
 
 .bannerimage {
@@ -64,35 +64,102 @@
 }
 
 .startbutton {
-  margin-top: 2rem;
-  background-color: grey;
-  width: 17rem;
-  display: flex;
-  justify-content: center;
+   margin-top: 2rem;
+   background-color: grey;
+   width: 17rem;
+   display: flex;
+   justify-content: center;
 }
 
 .starttext {
-  padding-top: 8px;
-  padding-bottom: 8px;
- color: white;
- margin: auto;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   color: white;
+   margin: auto;
 }
 
-#textformat1 {
-font-weight: bolder;
-color: grey;
-font-size: 2rem;
+.textformat1 {
+    font-weight: bolder;
+    color: grey;
+    font-size: 2rem;
 }
 
-#textformat2 {
-  color: grey;
-  font-size: 1.5rem;
-  padding-top: 1rem;
+.textformat2 {
+   color: grey;
+   font-size: 1.5rem;
+   padding-top: 1rem;
 }
 
 /* beginning of information section */
 
 .infosection {
+   display: flex;
+   width: 940px;;
+}
+
+.rightside {
+  border-left: 1px solid lightgrey;
+}
+
+.leftsidetext {
+  padding-left: 24px;
+  width: 65%;
+}
+
+.infomainimage {
+   background-image: url("../images/information-main.jpg");
+   background-size: cover;
+   width: 662px;
+   height: 404px;
+   margin: 32px 24px;
+}
+
+.textformat3 {
+  font-weight: bolder;
+  color: grey;
+  font-size: 2rem;
+  padding-bottom: 24px;
+}
+
+.textformat4 {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.infoimageformat {
+  width: 170px;
+  height: 170px;
+  margin: 16px;
+}
+
+.infosectioncontent {
+   padding-top: 24px;
+}
+
+.infocontentbox {
   display: flex;
-  width: 100%;
+  width: 435px;
+  padding-right: 24px;
+}
+
+.infoboxtext {
+  margin: auto;
+  line-height: 28px;
+}
+
+#greybackground {
+  background-color: lightgrey;
+}
+
+#bluetext {
+  color: blue;
+  font-weight: bold;
+}
+
+#topborder {
+  border-top: solid 2px lightgrey;
+}
+
+#bottomborder {
+  border-bottom: solid 2px lightgrey;
 }
