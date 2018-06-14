@@ -1,7 +1,5 @@
 /* header section stuff */
 
-
-
 .header {
   height: 64px;
   display: flex;
@@ -27,7 +25,7 @@
 .headernav {
    display: flex;
    align-items: center;
-   padding: 0;
+   margin-right: 24px;
 }
 
 .headernav a{
@@ -90,11 +88,29 @@
    padding-top: 1rem;
 }
 
+.textformat3 {
+  font-weight: bolder;
+  color: grey;
+  font-size: 2rem;
+  padding-bottom: 24px;
+}
+
+.textformat4 {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.textformat5 {
+  color: grey;
+  font-size: 1.5rem;
+  padding-bottom: 16px;
+}
+
 /* beginning of information section */
 
 .infosection {
    display: flex;
-   width: 940px;;
+   width: 940px;
 }
 
 .rightside {
@@ -112,18 +128,6 @@
    width: 662px;
    height: 404px;
    margin: 32px 24px;
-}
-
-.textformat3 {
-  font-weight: bolder;
-  color: grey;
-  font-size: 2rem;
-  padding-bottom: 24px;
-}
-
-.textformat4 {
-  color: grey;
-  font-size: 1.5rem;
 }
 
 .infoimageformat {
@@ -164,33 +168,167 @@
   border-bottom: solid 2px lightgrey;
 }
 
+.endtextformat {
+  margin-bottom: 32px;
+}
 /* beginning of courses section */
 
 .learningsection {
-  width: 940px;
+  width: 100%;
   background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.learningtitle {
+  font-weight: bolder;
+  color: grey;
+  font-size: 2rem;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.courses {
+  display: flex;
+}
+
+.coursecontainer {
+  background-color: white;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.coursetext {
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+/* left column of courses */
+
+.leftcolumn {
+ width: 300px;
 }
 
 .softwareengineeringpic {
-
-}
-
-.computerartpic {
-
-}
-
-.designpic {
-
+   background-image: url(../images/course-software.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 136px;
+   width: 100%;
 }
 
 .datapic {
+  background-image: url(../images/course-data.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 136px;
+  width: 100%;
+}
 
+/* middle column */
+
+.middlecolumn {
+
+   width: 300px;
+   padding-left: 32px;
+   padding-right: 32px;
+}
+.computerartpic {
+  background-image: url(../images/course-computer-art.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 136px;
+  width: 100%;
 }
 
 .businesspic {
+  background-image: url(../images/course-business.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 136px;
+  width: 100%;
+}
+
+/* rightcolumn */
+
+.rightcolumn {
+   width: 300px;
+}
+
+.designpic {
+  background-image: url(../images/course-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 136px;
+  width: 100%;
+}
+
+
+.marketingpic {
+   background-image: url(../images/course-marketing.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 136px;
+   width: 100%;
+}
+
+/* beginning of thesis section */
+
+
+.thesis {
+  display: flex;
+  width: 940px;
+}
+
+.thesistitle {
+  font-weight: bolder;
+  color: grey;
+  font-size: 2rem;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.videoformat {
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  margin-top: -16px;
+}
+
+.thesistextformat {
+  width: 662px;
+  padding-left: 24px;
+}
+
+#custompadding {
+   padding-bottom: 32px;
+}
+
+/* beginning of footer section */
+
+.footersection{
+  border-top: grey solid 1px;
+  width 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.marketingpic {
+.footernav {
+  display: flex;
+  padding-right: 24px;
+}
 
+.trademarkformatting {
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+.footernav a {
+   padding-left: 16px;
+   padding-top: 16px;
 }
